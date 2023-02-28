@@ -1,0 +1,48 @@
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Quicksand:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  
+body{
+    /*display: none;
+    background: url(./assets/imgs/ai_cyborg.jpeg);
+object-fit: contain;
+*/}
+ul{
+list-style: square inside url('assets/Icons/user.png') ;    
+border-image-width: 1px;
+}
+
+#shoppingListID{
+    /*background-color: red;*/
+}
+#shoppingListID li{
+    background-color: whitesmoke;
+padding: 8px;
+margin: 8px;
+}
+.mainContainer{
+  /* background: purple; */
+}
+.containerTitle{
+    font-size: small;
+    font-weight: lighter;
+}
+.iconsImg{
+    width: 100px ;
+    height: 100px;
+}
+.subject{
+    font-weight: bolder;
+    font-family: 'Quicksand', sans-serif;
+}
+.prof{
+    font-weight: lighter;
+    font-family: 'Quicksand', sans-serif;
+}
+.skillsList{
+    width: 100%;
+}
+.listItem{
+    width: 30%;
+    background-color: whitesmoke;
+    margin: 16px;
+    border-radius: 16px;
+}
